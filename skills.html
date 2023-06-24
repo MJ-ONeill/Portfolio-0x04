@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+   <link rel="stylesheet" type="text/css" href="css/skillstyles.css">
+</head>
+<body>
+
+           <!--HEADER-->
+  <header>
+    <h1>Here are my skills</h1>
+  </header>
+
+
+           <!--NAVBAR-->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html">About</a></li>
+      <li><a href="projects.html"> Projects </a> </li>
+       <li><a href="#certificates"> Certificates</a></li>
+        <li><a href="#experience">Experience</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+
+        <!--CERTIFICATES-->
+  <section id="certificates">
+    <h2>My Certificates of Completion</h2>
+
+    <p>Certificates I have received From completing courses from various online platfroms</p>
+
+    <div class="certificate-container">
+    <div class="certificate">
+      <img src="images/full-stack.jpg" alt="Udemy" onclick="enlargeImage(this)">
+      <h3>Full-Stack Web Development Bootcamp</h3>
+      <p> Udemy </p>
+    </div>
+
+   
+
+    <div class="certificate">
+      <img src="images/css.jpg" alt="Certificate 2" onclick="enlargeImage(this)">
+      <h3>CSS</h3>
+      <p>WildLearner</p>
+    </div>
+
+    <div class="certificate">
+      <img src="images/html.jpg" alt="Certificate 2" onclick="enlargeImage(this)">
+      <h3>HTML</h3>
+      <p>WildLearner</p>
+    </div>
+
+    <div class="certificate">
+      <img src="images/javascript.jpg" alt="Certificate 2" onclick="enlargeImage(this)">
+      <h3>JavaScript</h3>
+      <p>WildLearner</p>
+    </div>
+
+
+<div class="certificate">
+      <img src="images/python.jpg" alt="Certificate 2" onclick="enlargeImage(this)">
+      <h3>Python</h3>
+      <p>WildLearner</p>
+    </div>
+
+
+<div class="certificate">
+      <img src="images/react.jpg" alt="Certificate 2" onclick="enlargeImage(this)">
+      <h3>REACT</h3>
+      <p>WildLearner</p>
+    </div>
+
+    <div class="certificate">
+      <img src="images/ms-basic.png" alt="Certificate 2" onclick="enlargeImage(this)">
+      <h3>Microsoft Word Basic</h3>
+      <p>EduCourse</p>
+    </div>
+
+     <div class="certificate">
+      <img src="images/codecamp.jpg" alt="Certificate 2" onclick="enlargeImage(this)">
+      <h3>Respopnsive Web Design</h3>
+      <p>FreeCodeCamp</p>
+    </div>
+    <!-- Add more certificates here -->
+  </div>
+
+  <div id="modal" class="modal" onclick="closeModal()">
+    <span class="close">&times;</span>
+    <img src="" alt="Enlarged Certificate" id="enlarged-image">
+  </div>
+  </section>
+
+              <!--EXPERIENCE-->
+         <section id="experience">
+         <h2> Work Experience </h2>   
+            <p>Places I have worked and references </p>  
+ 
+        <!-- FIRST WORKPLACE-->
+    <div class="experience-card">
+      <div class="company-header">
+      <h3>Position: Junior Web developer</h3> 
+      <h3>Kubura Technologies</h3>
+      <h4>From <span>January 2017</span> To <span>January 2023</span></h4>
+        
+      </div>
+
+<div>
+      <h3>Reason for leaving:</h3>
+      <p>
+"Reason for leaving the workplace: I made the decision to transition from my role at the company to focus more extensively on my professional development in the field of software engineering. Since August 2022, I have been enrolled in a rigorous Software Engineering Program with ALX. Given the program's intensive nature and my commitment to successfully completing it, I determined that dedicating my full attention to the program was necessary at this stage of my career. I believe that this focused dedication to expanding my skill set will ultimately enable me to bring greater value and expertise to future professional endeavors."</p>
+</div>
+<br />
+<br />
+<h3> My role: </h3>
+      <p class="work-description">As a junior web developer at a reputable web development agency, I gained valuable experience and refined my skills in front-end and back-end development. Working collaboratively with cross-functional teams, I contributed to the successful delivery of diverse projects.
+<br />
+<br />
+I demonstrated proficiency in HTML, CSS, and JavaScript, leveraging these languages to create visually appealing and responsive user interfaces. I utilized modern frameworks like Bootstrap and jQuery to enhance user experiences.
+<br />
+<br />
+On the back-end, I worked with databases such as MySQL and MongoDB, integrating them seamlessly into web applications. I utilized frameworks like Django and Express.js to build dynamic and scalable solutions.
+<br />
+<br />
+Throughout my experience, I actively collaborated with designers, UX/UI specialists, and project managers to understand requirements and deliver solutions aligned with client expectations.
+<br />
+<br />
+Continuously staying updated with emerging technologies and industry trends, I proactively suggested and implemented innovative solutions to enhance user engagement and optimize performance.
+<br />
+<br />
+Overall, my work experience as a junior web developer has equipped me with a strong foundation in front-end and back-end development, effective problem-solving skills, and the ability to work collaboratively in fast-paced environments.</p> </br /> <br />
+     <h4> For Reference <a href="tel:+27780101043" class="phone-link">Call Alexander Kies</a> </h4>
+    </div>
+
+    </section>
+                   <!--SECOND WORK SPACE-->
+ <section id="experience">
+    <div class="experience-container">
+   <div class="experience-card">
+      <div class="company-header">
+      <h3> position: </h3>
+        <h3>Company Name</h3>
+        <h4>From <span>Start Date</span> To <span>End Date</span></h4>
+
+      </div>
+      <div>
+      <h3>Reason for leaving:</h3>
+      <p> Reason?? </p>
+      </div>
+<br />
+<br />
+      <p class="work-description">Description of the work...</p>
+      <br />
+      <br />
+      <h4> For Reference <a href="tel:+1234567890" class="phone-link">Call [Reference Contact]</a> </h4>
+    </div>
+
+    <!-- Add more experience cards here -->
+  </div>
+</section>
+
+          <!--FOOTER-->
+  <footer>
+    <p>© 2023 MJ O'Neill. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts/script.js"></script>
+   <script src="scripts/certscript.js"></script>
+</body>
+</html>
