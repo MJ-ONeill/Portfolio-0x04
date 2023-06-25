@@ -54,7 +54,7 @@ footer {
   color: #b0acacc2;
   text-align: center;
   padding: 20px;
-  position: fixed; /* Fixed position to stick to the bottom */
+  position: relative; /* Fixed position to stick to the bottom */
   left: 0;
   right: 0;
   bottom: 0;
