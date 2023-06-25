@@ -18,7 +18,7 @@
   margin: 10px;
   padding: 20px;
   border: 1px solid #ccc;
-  text-align: center;
+  text-align: left; /* Align the text to the left */
 }
 
 .card img {
@@ -35,13 +35,13 @@
 .card p {
   font-size: 14px;
   margin-bottom: 10px;
+  text-align: left; /* Align the paragraphs to the left */
 }
 
 .buttons {
   display: flex;
-  justify-content:inherit;
+  justify-content: inherit;
   padding: 1px;
-  
 }
 
 .button {
@@ -49,7 +49,7 @@
   background-color: #040404;
   color: #0af229;
   text-decoration: none;
-  border-radius:5px;
+  border-radius: 5px;
 }
 
 /* Media queries for responsiveness */
@@ -67,8 +67,10 @@
 
 .read-more-content {
   display: none;
+  text-align: left;
 }
 
 .read-more-content.show {
   display: inline;
+  text-align: left;
 }
