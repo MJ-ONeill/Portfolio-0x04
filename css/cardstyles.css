@@ -64,3 +64,11 @@
     width: 100%;
   }
 }
+
+.read-more-content {
+  display: none;
+}
+
+.read-more-content.show {
+  display: inline;
+}

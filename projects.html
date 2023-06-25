@@ -7,82 +7,105 @@
 </head>
 <body>
 
-           <!--HEADER-->
-  <header>
-    <h1>Here are a few of my favorite projects </h1>
-  </header>
+<!-- HEADER -->
+<header>
+  <h1>Here are a few of my favorite projects</h1>
+</header>
 
+<!-- NAVBAR -->
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="index.html">About</a></li>
+    <li><a href="skills.html">Certificates</a></li>
+    <li><a href="skills.html">Experience</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
 
-           <!--NAVBAR-->
- <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="index.html">About</a></li>
-       <li><a href="skills.html"> Certificates</a></li>
-        <li><a href="skills.html">Experience</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>   <!--PROJECTS-->
-               
-   <section id="projects">
-    <h2>Projects</h2>
-  </section>
-  <div class="card-container">
-        <!-- Project 1-->
-      <div class="card">
-      <img src="images/list-it.png" alt="Image 1">
-      <h3>LIST-it</h3>
-      <p>A web app to create lists. You can view them quickly and mark as completed</p>
-      <div class="buttons">
-        <a href="process/LIST-it_process.html" class="button">Development process</a>
-        </div>
-         <div class="buttons">
-        <a href="https://thelists.netlify.app/" class="button"> LIST-it Link </a>
-      </div>
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Projects</h2>
+</section>
+
+<div class="card-container">
+  <!-- Project 1 -->
+  <div class="card">
+    <img src="images/list-it.png" alt="Image 1">
+    <h3>LIST-it</h3>
+    <h6> Simplify, Organize, Accomplish. </h6>
+    <br />
+    <p>
+      A ultimate web app for hassle-free list creation and management. Effortlessly create customized lists tailored to your needs, ensuring optimal organization and productivity.
+      <span id="read-more-1" class="read-more-content">
+        Quickly view and access your lists with ease, experiencing a seamless user interface that simplifies the entire process. Stay focused and on top of your tasks by marking them as completed, empowering you to track your progress and celebrate your achievements.
+      </span>
+      <a href="javascript:void(0);" onclick="toggleReadMore(1);" id="read-more-link-1" class="read-more-link">Read More</a>
+    </p>
+    <div class="buttons">
+      <a href="process/LIST-it_process.html" class="button">Development process</a>
     </div>
-
-      <!-- Project 2-->
-
-        <div class="card">
-      <img src="images/chatMJ.png" alt="ChatMJ">
-      <h3>ChatMJ</h3>
-      <p>A similiar to the chatGPT AI app but without a learning model YET so impersonal responses (for now).</p>
-     
-         <div class="buttons">
-        <a href="https://chat-mj.netlify.app/" class="button"> ChatMJ Link </a>
-      </div>
+    <div class="buttons">
+      <a href="https://thelists.netlify.app/" class="button">LIST-it Link</a>
     </div>
+  </div>
+
+  <!-- Project 2 -->
+  <div class="card">
+    <img src="images/chatMJ.png" alt="ChatMJ">
+    <h3>ChatMJ</h3>
+    <h6>  Conversational AI at Your Fingertips </h6>
+    <br />
+     <p>
+        A ultimate web app for hassle-free list creation and management. Effortlessly create customized lists tailored to your needs, ensuring optimal organization and productivity.
    
+      <span id="read-more-2" class="read-more-content">
+       With ChatMJ, you can explore the world of AI-driven conversations without the constraints of a learning model. Engage with the app to exchange messages and receive prompt responses tailored to your inquiries. While impersonal for now, ChatMJ provides a glimpse into the potential of future learning capabilities.
+      </span>
+      <a href="javascript:void(0);" onclick="toggleReadMore(2);" id="read-more-link-2" class="read-more-link">Read More</a>
+    </p>
+    <div class="buttons">
+      <a href="https://chat-mj.netlify.app/" class="button">ChatMJ Link</a>
+    </div>
+  </div>
 
-          <!-- Project 3-->
- 
-    <div class="card">
-      <img src="images/prideconnections.png" alt="PrideConnections">
-      <h3>PrideConnections</h3>
-      
-      <p>A Event Find and Search Web App For People of the LGBTQ Community To Find/Share Pride Events Easily</p>
-      <br />
-      <p> still in development </p>
-      <div class="buttons">
-        <a href="process/prideconnections.html" class="button">Development process</a>
-        </div>
-         <div class="buttons">
-        <a href="https://prideconnections.netlify.app/" class="button">PrideConnections Link </a>
-      </div>
+  <!-- Project 3 -->
+  <div class="card">
+    <img src="images/prideconnections.png" alt="PrideConnections">
+    <h3>PrideConnections</h3>
+     <h6> Discover and Share LGBTQ+ Pride Events Effortlessly</h6>
+    <br />
+     <p>
+        Introducing PrideConnections, an innovative web application designed to facilitate event discovery and sharing within the LGBTQ+ community. This dynamic platform empowers users to easily find and participate in a wide range of pride events.
+   
+      <span id="read-more-3" class="read-more-content">
+      With PrideConnections, you can explore a comprehensive database of LGBTQ+ pride events, ensuring you never miss out on an opportunity to celebrate and connect with like-minded individuals. From parades and festivals to workshops and social gatherings, this app offers a centralized hub for accessing vibrant and inclusive events.
+
+PrideConnections is currently in active development, as I strive to create the best possible experience for my users. Stay tuned for future updates and enhancements as we work tirelessly to bring this exciting project to life.
+      </span>
+      <a href="javascript:void(0);" onclick="toggleReadMore(3);" id="read-more-link-3" class="read-more-link">Read More</a>
+    </p>
+    <br />
+    <p style="color:black; font-size:9px;">Join me on my journey to foster unity, inclusivity, and celebration within the LGBTQ+ community through PrideConnections.</p>
+    <div class="buttons">
+      <a href="process/prideconnections.html" class="button">Development process</a>
     </div>
-    
-          <!--PROJECT 4-->
-     <div class="card">
-      <img src="images/dino.png" alt="Dino">
-      <h3>Dino-game</h3>
-      <p>It's the No Internet Connection Dinousaur Game From Google.</p>
-      <br />
-      <p> I've Always Liked This Game But I did not Want too Put Off my Internet Connections Each Time I want To Play the Game So I Made It So I Can Play whenever.</p>
-     
-         <div class="buttons">
-        <a href="https://dino-gameclone.netlify.app/" class="button"> DINO game Link </a>
-      </div>
+    <!--<div class="buttons">
+      <a href="https://prideconnections.netlify.app/" class="button">PrideConnections Link</a>
+    </div>-->
+  </div>
+
+  <!-- Project 4 -->
+  <div class="card">
+    <img src="images/dino.png" alt="Dino">
+    <h3>Dino-game</h3>
+    <p>It's the No Internet Connection Dinosaur Game From Google.</p>
+    <br />
+    <p>I've Always Liked This Game But I did not Want to Put Off my Internet Connections Each Time I Want To Play the Game, So I Made It So I Can Play Whenever.</p>
+    <div class="buttons">
+      <a href="https://dino-gameclone.netlify.app/" class="button">DINO game Link</a>
     </div>
+  </div>
 
 
       <!--PROJECT 5
@@ -98,6 +121,8 @@
       </div>
     </div> -->
     <!-- Add more cards here -->
+
+    
   </div>
  
 
@@ -106,6 +131,6 @@
     <p>© 2023 MJ O'Neill. All rights reserved.</p>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="scripts/projectscript.js"></script>
 </body>
 </html>
