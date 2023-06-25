@@ -54,6 +54,10 @@ footer {
   color: #b0acacc2;
   text-align: center;
   padding: 20px;
+  position: fixed; /* Fixed position to stick to the bottom */
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 #home {
@@ -70,26 +74,4 @@ footer {
 #home p {
   flex: 1;
   /* Allow the text to fill the remaining space */
-}
-
-/* Adjustments for mobile screens */
-@media (max-width: 768px) {
-  body {
-    padding-bottom: 80px; /* Increase the body padding to make room for the fixed footer */
-  }
-
-  section {
-    padding: 20px; /* Adjust the section padding to reduce the space on mobile screens */
-  }
-
-  footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px;
-    background-color: #232323;
-    color: #b0acacc2;
-    text-align: center;
-  }
 }
