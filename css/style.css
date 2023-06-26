@@ -4,7 +4,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: rgb(60, 58, 58);
+  background-color: rgb(57, 26, 79);
   color: rgb(209, 203, 203);
   font-weight: 900;
   margin: auto;
@@ -17,8 +17,8 @@ h2 {
 }
 
 header {
-  background-color: #212121;
-  color: #8e6060;
+  background-color: #000000;
+  color: #f0efef;
   padding: 20px;
   font-weight: 900;
 }
@@ -27,7 +27,7 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #82459f;
+  background-color: #270138;
   text-align: center;
 }
 
@@ -38,7 +38,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #370b71;
+  color: #0095eb;
 }
 
 nav ul li a:hover {
@@ -50,8 +50,8 @@ section {
 }
 
 footer {
-  background-color: #232323;
-  color: #b0acacc2;
+  background-color: #000000;
+  color: #aca7a7d8;
   text-align: center;
   padding: 20px;
   position: relative; /* Fixed position to stick to the bottom */

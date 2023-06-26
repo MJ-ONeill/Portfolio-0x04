@@ -6,8 +6,9 @@
 }
 h3 {
   font-size: 20px;
-  color:#0f0909;
+  color:#04bfc8;
   font-weight:900;
+  background-color: black;
 }
 
 /* Set up the certificate container */
@@ -15,6 +16,7 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  background-color:rgb(111, 7, 208);
 }
 
 /* Define the styles for each certificate */
@@ -28,11 +30,15 @@ h3 {
 .certificate img {
   width: 100%;
   height: auto;
+  border: 10px solid black;
 }
 
 .certificate h3 {
   font-size: 16px;
   margin-top: 10px;
+  color: rgb(0, 0, 0);
+  font-weight:900;
+  background-color:#545252
 }
 
 /* Modal styles */
@@ -108,19 +114,22 @@ h3 {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
+    background-color: black;
   }
   
   .company-header h3 {
     font-size: 20px;
-    color:#0f0909;
+    color:#06f857;
     font-weight:900;
+    
   }
   
   .company-header h4 {
     font-size: 14px;
     font-weight: normal;
-    color:#141313;
+    color:#08a30b;
     font-weight:900;
+    background-color: black;
   }
   
   .work-description {
@@ -132,6 +141,7 @@ h3 {
   
       font-size: 14px;
       font-weight: normal;
+      
   }
   .phone-link {
     display: inline-block;

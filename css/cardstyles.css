@@ -10,6 +10,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  
 }
 
 /* Define the styles for each card */
@@ -19,6 +20,7 @@
   padding: 20px;
   border: 1px solid #ccc;
   text-align: left; /* Align the text to the left */
+  background-color:#0e0e0e;
 }
 
 .card img {
@@ -30,12 +32,16 @@
 .card h3 {
   font-size: 20px;
   margin-bottom: 10px;
+  font-weight: 900;
+  color:lawngreen
 }
 
 .card p {
   font-size: 14px;
   margin-bottom: 10px;
   text-align: left; /* Align the paragraphs to the left */
+font-weight: 900;
+color:paleturquoise
 }
 
 .buttons {
@@ -46,8 +52,8 @@
 
 .button {
   padding: 10px 20px;
-  background-color: #040404;
-  color: #0af229;
+  background-color: #04a9ca;
+  color: #5a027a;
   text-decoration: none;
   border-radius: 5px;
 }
